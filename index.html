@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Boubacar Sadio Diallo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Bienvenue sur mon Portfolio</h1>
         <nav>
-            <a href="#about">À Propos</a>
-            <a href="#projects">Projets</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
+
     <section id="about">
         <h2>À Propos de Moi</h2>
-        <p>Je suis Boubacar Sadio Diallo, un développeur passionné par les technologies web et l'IA.</p>
+        <p>Je suis <strong>Boubacar Sadio Diallo</strong>, ingénieur en informatique.</p>
     </section>
+
     <section id="projects">
         <h2>Mes Projets</h2>
-        <ul>
-            <li><a href="https://github.com/nom_utilisateur/projet1">Projet 1</a></li>
-            <li><a href="https://github.com/nom_utilisateur/projet2">Projet 2</a></li>
-        </ul>
+        <div class="projects-grid">
+            <a href="https://github.com/Boubacar-Sadio-Diallo/l-System" class="project-card">L-System</a>
+            <a href="https://github.com/Boubacar-Sadio-Diallo/strategy-game" class="project-card">Strategy Game</a>
+            <a href="https://github.com/Boubacar-Sadio-Diallo/app-web" class="project-card">Application Web</a>
+            <a href="https://github.com/Boubacar-Sadio-Diallo/app-mobile" class="project-card">Application Mobile</a>
+            <a href="https://github.com/Boubacar-Sadio-Diallo/IA" class="project-card">Projet IA</a>
+        </div>
     </section>
+
     <section id="contact">
         <h2>Contactez-moi</h2>
-        <p>Email : aboubakr2705@gmail.com</p>
+        <p>Email : <a href="mailto:aboubakr2705@gmail.com">aboubakr2705@gmail.com</a></p>
+        <p>Tel : 0753481636</p>
     </section>
+
+    <footer>
+        <p>© 2025 Boubacar Sadio Diallo - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
